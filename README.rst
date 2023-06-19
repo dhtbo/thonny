@@ -2,7 +2,7 @@
 Thonny
 ======
 
-Thonny Python 编程 `IDE <https://en.wikipedia.org/wiki/Integrated_development_environment>`_。 
+Thonny 是一个 Python 编程 `IDE <https://en.wikipedia.org/wiki/Integrated_development_environment>`_。 
 
 
 
