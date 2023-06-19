@@ -72,9 +72,10 @@ setup(
     python_requires=">=3.8",
     packages=find_packages(),
     package_data={
-        "": ["VERSION", "defaults.ini", "res/*", "dbus/*"]
+        "": ["VERSION", "defaults.ini", "res/*", "dbus/*", "locale/zh_CN/*",]
             + recursive_files("thonny/locale")
             + recursive_files("thonny/vendored_libs"),
+            
         "thonny.plugins.help": ["*.rst"],
         "thonny.plugins.pi": ["res/*.*"],
         "thonny.plugins.printing": ["*.html"],

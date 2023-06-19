@@ -6,7 +6,7 @@ rmdir %BUILDDIR% /S /Q
 mkdir %BUILDDIR%
 
 @echo ............... COPYING PYTHON ...................................
-xcopy C:\Python310-64\* %BUILDDIR% /S /E /K>NUL
+xcopy C:\Tools\thonny\.venv\* %BUILDDIR% /S /E /K>NUL
 @echo ............... COPYING OTHER STUFF ...................................
 copy ThonnyRunner310\x64\Release\thonny.exe %BUILDDIR% /Y
 copy thonny_python.ini %BUILDDIR%

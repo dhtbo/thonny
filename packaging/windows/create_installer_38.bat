@@ -6,7 +6,7 @@ rmdir %BUILDDIR% /S /Q
 mkdir %BUILDDIR%
 
 @echo ............... COPYING PYTHON ...................................
-xcopy C:\Python38-32\* %BUILDDIR% /S /E /K>NUL
+xcopy C:\Tools\thonny\.venv\Scripts\* %BUILDDIR% /S /E /K>NUL
 @echo ............... COPYING OTHER STUFF ...................................
 copy ThonnyRunner38\Win32\Release\thonny.exe %BUILDDIR% /Y
 @rem NB! ucrt_redist not required in Windows 10
